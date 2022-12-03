@@ -1,0 +1,14 @@
+.ProfileForm-title {
+  color: white;
+  font-size: 24px;
+  text-shadow: 2px 2px 5px black;
+}
+
+.ProfileForm-username,
+.ProfileForm-firstname,
+.ProfileForm-lastname,
+.ProfileForm-email {
+  color: white;
+  text-shadow: 2px 2px 5px black;
+  margin-top: 10px;
+}

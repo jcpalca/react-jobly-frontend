@@ -1,0 +1,7 @@
+.CompanyCard a {
+  color: black;
+}
+
+.CompanyCard a:hover {
+  color: grey;
+}
