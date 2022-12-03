@@ -15,6 +15,8 @@ import userContext from "./userContext";
  *
  * State: none
  *
+ * Context: applyToJob, hasApplied, unapplyToJob
+ *
  * { JobList, CompanyDetail, UserJobs }  -> JobCard
  */
 function JobCard({ id, title, salary, equity, companyName }) {

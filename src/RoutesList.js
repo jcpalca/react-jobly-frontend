@@ -18,9 +18,11 @@ import userContext from "./userContext";
  *
  * State: none
  *
+ * Context: userContext
+ *
  * App -> RoutesList -> Routes
  */
-// TODO: context in docstring
+
 function RoutesList({ login, signUp, editProfile }) {
   console.log("RoutesList");
 

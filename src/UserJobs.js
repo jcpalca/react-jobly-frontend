@@ -11,6 +11,8 @@ import MySpinner from "./MySpinner";
  *
  *  States: jobs - like [{job: {id, title, salary, equity, company}}, ...]
  *
+ *  Context: currUser, applicationIds
+ *
  *  ProfileForm -> UserJobs -> JobCard
  */
 
