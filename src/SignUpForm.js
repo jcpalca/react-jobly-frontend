@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Form";
 import MyAlert from "./MyAlert";
+import "./SignUpForm.css";
 
 /**
  * SignUpForm:
@@ -68,7 +69,7 @@ function SignUpForm({ signUp }) {
 
   return (
     <Form className="SignUpForm container" onSubmit={handleSubmit}>
-      <Form.Text as="h1">Sign Up</Form.Text>
+      <Form.Text as="h1" className="SignUpForm-title mt-3">Sign Up</Form.Text>
       <Form.Group>
         <Form.Label>Username:</Form.Label>
         <Form.Control

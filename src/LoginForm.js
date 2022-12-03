@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Form";
 import MyAlert from "./MyAlert";
+import "./LoginForm.css";
 
 /**
  * SignUpForm:
@@ -53,7 +54,7 @@ function LoginForm({ login }) {
 
   return (
     <Form className="LoginForm container" onSubmit={handleSubmit}>
-      <Form.Text as="h1">Login</Form.Text>
+      <Form.Text as="h1" className="LoginForm-title mt-3">Login</Form.Text>
       <Form.Group>
         <Form.Label>Username:</Form.Label>
         <Form.Control
