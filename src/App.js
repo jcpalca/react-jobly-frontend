@@ -82,6 +82,7 @@ function App() {
   }
 
   function hasApplied(id) {
+    // console.log({ applicationIds, id });
     return applicationIds.includes(id);
   }
 
